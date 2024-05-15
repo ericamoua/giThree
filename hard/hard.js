@@ -33,4 +33,12 @@ class Patient {
 }
 
 const firstPatient = new Patient("Erica", "123-90-8192");
+const secPatient = new Patient("Dabin", "099-90-8908");
+const thirdPateint = new Patient("Wheaty", "123-987-3480");
+
 console.log(firstPatient.getName()); 
+const address = firstPatient.getName();
+console.log("Addressing package to:", address); 
+
+
+console.log(firstPatient.SSN);
